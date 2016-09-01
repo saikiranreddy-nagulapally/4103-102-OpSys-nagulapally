@@ -1,5 +1,5 @@
 # 4103-102-OpSys-nagulapally
-#Sai Kiran Reddy
+
 
 ![Sai](https://avatars0.githubusercontent.com/u/21366093?v=3&s=460)
 
