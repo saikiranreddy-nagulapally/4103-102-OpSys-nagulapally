@@ -1,6 +1,6 @@
 #!/bin/bash
 
-words_path='words'
+words_path='/usr/share/dict/words'
 
 # get total number of lines from words file by piping word count
 line=$(cat $words_path | wc -l)
