@@ -16,3 +16,7 @@ cleaned_math_string=${math_string::-1}
 
 # print result
 echo "$cleaned_math_string=$total_sum"
+
+
+
+
