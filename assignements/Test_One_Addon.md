@@ -50,7 +50,13 @@ Swapping is a simple memory/process management technique used by the operating s
 ####The purpose of swapping 
  The purpose of swapping or paging is to access data being stored in hard disk and to bring it into the RAM so that it can be used by the application program. Remember that swapping is only necessary when that data is not already in the RAM.
 ###5. Why does Figure 3.9b have two blocked states?
-Need to search
+There are two independent concepts here: whether a process is waiting on an event (blocked or not) and whether a process has been swapped out of main memory (suspended or not).
+To accommodate this 2 * 2 combination, we need four states:
+
+1.  Ready: The process is in main memory and available for execution
+2.  Blocked: The process is in main memory and awaiting an event.
+3.  Blocked/Suspend:  The process is in secondary memory and awaiting an event.
+4.  Ready/Suspend: The process is in secondary memory but is available for execution as soon as it is loaded into main memory.
 
 ###6. List four characteristics of a suspended process.	
 1. The process is not immediately available for execution.
