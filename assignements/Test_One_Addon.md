@@ -20,6 +20,7 @@ Many software packages that run on modern desktop PCs are multithreaded.  A word
 ###4. Multiprocessing
 Multi-processing refers to the ability of a system to support more than one processor at the same time. Applications in a multi-processing system are broken to smaller routines that run independently. The operating system allocates these threads to the processors improving performance of the system.
 ###Example:
+You are viewing the content on your web browser or may be through some other application. At the same time, you might be listening to some songs on some media player application or running some chat application in parallel to the browser. This is called multiprocessing, where multiple programs run in parallel. In the earliest of the computer systems, you could only run single application on your systems.
 
 
 ##Review Questions From Chapters 3
