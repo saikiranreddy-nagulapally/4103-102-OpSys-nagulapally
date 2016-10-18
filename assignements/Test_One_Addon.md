@@ -41,7 +41,8 @@ The OS can create a process to perform a function on behalf  of a user program, 
  For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
 
 ###3.What does it meant to preempt a process?
-Need to search
+Preemption is used by all the operating systems to give user an illusion that multiple tasks are running concurrently. When multiple tasks are running together, the OS has to decide which task needs an immediate attention so as to allocate CPU time to run that task. OS uses a piece of software called scheduler to select which task needs to be executed among the several contenders.
+
 ###4. What is swapping and what is its purpose?
 Swapping is a simple memory/process management technique used by the operating system (os) to increase the utilization of the processor by moving some blocked process from the main memory to the secondary memory (hard disk); thus forming a queue of temporarily suspended process and the execution continues with the newly arrived process. After performing the swapping process, the operating system has two options in selecting a process for execution:
 1.  Operating System can admit newly created process 
