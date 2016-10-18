@@ -30,7 +30,6 @@ Now let us view these traces from the processor’s point of view. Figure
 shows the interleaved traces resulting from the first 52 instruction cycles (for convenience,
 the instruction cycles are numbered).
 		
-Table page number 113
 ###2. What common events lead to the creation of process?
 Four common events lead to the creation of a process
 
