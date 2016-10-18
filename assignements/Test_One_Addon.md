@@ -10,6 +10,7 @@ In computer science, is a version of the Apple Macintosh that provides support f
 ###2. Multiprogramming
 Multiprogramming is a rudimentary form of parallel processing in which several programs are run at the same time on a uniprocessor. Since there is only one processor, there can be no true simultaneous execution of different programs. Instead, the operating system executes part of one program, then part of another, and so on. To the user it appears that all programs are executing at the same time.
 ###Example:
+A computer running excel and firefox browser simultaneously is an example of multiprogramming.
 
 ###3. Multi-threaded
 Multithreading is the ability of a program or an operating system process to manage its use by more than one user at a time and to even manage multiple requests by the same user without having to have multiple copies of the programming running in the computer. Each user request for a program or system service (and here a user can also be another program) is kept track of as a thread with a separate identity.
