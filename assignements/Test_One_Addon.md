@@ -43,7 +43,7 @@ The OS can create a process to perform a function on behalf  of a user program, 
 4. Spawned by existing process:
  For purposes of modularity or to exploit parallelism, a user program can dictate the creation of a number of processes.
 
-###3.What does meant to preempt a process?
+###3.What does it meant to preempt a process?
 Need to search
 ###4. What is swapping and what is its purpose?
 Swapping is a simple memory/process management technique used by the operating system (os) to increase the utilization of the processor by moving some blocked process from the main memory to the secondary memory (hard disk); thus forming a queue of temporarily suspended process and the execution continues with the newly arrived process. After performing the swapping process, the operating system has two options in selecting a process for execution:
@@ -73,8 +73,7 @@ We can group the process control block information into three general categories
 When the computer system is executing on behalf of a user application, the system is in user mode. However, when a user application requests a service from the operating system (via a system call), it must transition from user to kernel mode to fulfill the request.
 
 ###9. What is the difference between an interrupt and a trap?
-Need to search
-
+Interrupts occur at random times during the execution of a program, in response to signals from hardware. System hardware uses interrupts to handle events external to the processor where as  trap is an exception that is reported immediately following the execution of the trapping instruction. Traps allow execution of a program or task to be continued without loss of program continuity.
 ###10. Give three examples of an interrupt.
 ####  1.  Clock interrupt:
  The OS determines whether the currently running process has been executing for the maximum allowable unit of time, referred to as a time slice. That is, a time slice is the maximum amount of time that a process can execute before being interrupted. If so, this process must be switched to a
