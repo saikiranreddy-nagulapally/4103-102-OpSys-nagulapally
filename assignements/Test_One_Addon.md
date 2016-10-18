@@ -3,17 +3,17 @@
 ### 1.  Multitasking
 Multitasking, in an operating system, is allowing a user to perform more than one computer task (such as the operation of an application program) at a time. The operating system is able to keep track of where you are in these tasks and go from one to the other without losing information.
 
-####Example:
+###Example:
 MultiFinder
 In computer science, is a version of the Apple Macintosh that provides support for multitasking. It allows multiple applications to be simultaneously resident in memory. A single mouse click switches between applications, and information from one application can be copied to another.
 
 ###2. Multiprogramming
 Multiprogramming is a rudimentary form of parallel processing in which several programs are run at the same time on a uniprocessor. Since there is only one processor, there can be no true simultaneous execution of different programs. Instead, the operating system executes part of one program, then part of another, and so on. To the user it appears that all programs are executing at the same time.
-Example:
+###Example:
 
 ###3. Multi-threaded
 Multithreading is the ability of a program or an operating system process to manage its use by more than one user at a time and to even manage multiple requests by the same user without having to have multiple copies of the programming running in the computer. Each user request for a program or system service (and here a user can also be another program) is kept track of as a thread with a separate identity.
-Example:
+###Example:
 Many software packages that run on modern desktop PCs are multithreaded.  A word processor may have a thread for displaying graphics, another for responding to keystrokes, and a third is for performing spelling and grammar checking in background.
 
 ###4. Multiprocessing
