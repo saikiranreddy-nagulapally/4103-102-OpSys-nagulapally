@@ -27,10 +27,7 @@ Multi-processing refers to the ability of a system to support more than one proc
 Instruction trace can characterize the behavior of an individual process by listing the
 Sequence of instructions that execute for that process. Such a listing is referred to
 as a trace of the process.
-Now let us view these traces from the processor’s point of view. Figure 
-shows the interleaved traces resulting from the first 52 instruction cycles (for convenience,
-the instruction cycles are numbered).
-		
+
 ###2. What common events lead to the creation of process?
 Four common events lead to the creation of a process
 
@@ -85,6 +82,7 @@ must then decide whether to resume execution of the process currently in the Run
  The processor encounters a virtual memory address reference for a word that is not in main memory. The OS must bring in the block
 
 ###11. What is the difference between a mode switch and a process switch?
+A process switch is what it is called when the processor switches from one thread/process to another. This causes the contents of the cpu registers and instruction pointer to be saved however A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task.In order for the user task to access things controlled by the kernel, it is necessary fro a mode switch to occur.
 
 
 
